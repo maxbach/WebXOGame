@@ -1,0 +1,78 @@
+.divFCell {
+    display: table-cell;
+    width: auto;
+    background-color: #aaa;
+    border: 1px solid #000000;
+    /*cellspacing:poor IE support for  this*/
+    /* border-collapse:separate;*/
+}
+
+.divRow {
+    display: table-row;
+    width: auto;
+}
+
+.head {
+    display: table-row;
+}
+
+.divCell {
+    float: left;
+    /*fix for  buggy browsers*/
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+#form1 {
+    margin: 30px auto;
+    width: 500px;
+    position: relative;
+}
+
+.divFields {
+    display: table;
+    width: auto;
+    background-color: #eee;
+    border: 3px solid #000000;
+}
+
+.divFRow {
+    display: table-row;
+    width: auto;
+}
+
+#header {
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+#playBtn {
+    margin: 0 auto;
+    width: 100px;
+    align: center;
+}
+
+// Толстые границы между большими полями +++
+// границы между клетками +++ 
+// Большое поле посередине +++ 
+// внутри клеток посередине +++
+// Шрифт хороший подобрать для крестиков и ноликов +++
+// Надпись посередине +++
+// Кнопку разместить нормально +++
+// Закрыть кнопки все после конца игры +++
+// Закрашивать занятые кнопки +++
+// Более видные цвета +++ 
+// Надписи поинтереснее +++
+// Маленькое поле рядом
+// Показывать, кто ходит
+// Размеры, которые сами подходят под экран
+// Правила игры
+// Рефакторинг кода
